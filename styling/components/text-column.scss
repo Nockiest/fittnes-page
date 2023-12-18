@@ -1,0 +1,35 @@
+.text-column {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.text-column h3 {
+    margin-bottom: 10px;
+}
+
+.image-gallery {
+    flex: 1;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Add styles for the "Read More" button as needed */
+.read-more-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+    background-color: #2980b9;
+}
